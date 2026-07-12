@@ -33,7 +33,7 @@
   <meta name="twitter:title" content="Envíos y Garantías — Salud Naturalis">
   <meta name="twitter:description" content="Enviamos con cuidado y garantizamos tu satisfacción.">
   <meta name="twitter:image" content="./images/e6e2f164-f6c4-4f5e-bced-472be5a4bb25.jpeg">
-  <link rel="icon" type="image/jpeg" href="images/596989de-bf6c-48ea-9058-6c680e3eb9ab.jpg">
+  <link rel="icon" type="image/jpeg" href="images/e6e2f164-f6c4-4f5e-bced-472be5a4bb25.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com/">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Jost:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
     :root{
       --forest:#5C6B5A;--forest-dark:#4a5c3a;--gold:#C8922A;
       --cream:#F5F0E8;--cream-dark:#EDE6D6;--cream-deep:#E0D5C0;
-      --text-mid:#4a5240;--text-light:#7a8070;
+      --text-mid:#4a5240;--text-light:#7a8070;--white:#ffffff;
       --radius:12px;--shadow:0 4px 28px rgba(92,107,90,.10);
       --shadow-lg:0 12px 48px rgba(92,107,90,.16);--transition:.28s ease;
     }
@@ -54,7 +54,7 @@
     header{background:#2F3D24;padding:0 2rem;position:sticky;top:0;z-index:100;box-shadow:0 2px 20px rgba(92,107,90,.30);border-bottom:1px solid rgba(200,146,42,.25)}
     .header-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:92px;gap:1rem}
     .logo-wrap{display:flex;align-items:center;gap:.85rem;text-decoration:none;flex-shrink:0}
-    .logo-img{width:92px;height:92px;box-sizing:border-box;padding:6px;border-radius:50%;object-fit:contain;border:2px solid var(--gold);background:var(--white)}
+    .logo-img{width:92px;height:92px;box-sizing:border-box;padding:6px;border-radius:50%;object-fit:contain;object-position:center;border:2px solid var(--gold);background:var(--white);flex-shrink:0}
     .logo-text{display:flex;flex-direction:column;line-height:1.15}
     .logo-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.25rem;font-weight:700;color:var(--cream);letter-spacing:.04em}
     .logo-sub{font-size:.65rem;color:var(--gold);letter-spacing:.12em;text-transform:uppercase;font-weight:600}
@@ -169,7 +169,7 @@
     @media(max-width:480px){
       .header-inner{height:68px}
       .logo-name{font-size:1rem}
-      .logo-img{width:42px;height:42px}
+      .logo-img{width:42px;height:42px;padding:3px}
       .packaging-grid{grid-template-columns:1fr 1fr}
     }
   </style>
