@@ -51,7 +51,7 @@
     body{font-family:'Jost','Helvetica Neue',sans-serif;background:#3A4A3A;color:var(--text-dark);min-height:100vh;overflow-x:hidden;max-width:100%;width:100%}
     img{max-width:100%;height:auto;display:block}
 
-    header{background:#2F3D24 ;padding:0 2rem;position:sticky;top:0;z-index:100;box-shadow:0 2px 20px rgba(47,61,36,.30);border-bottom:1px solid rgba(184,115,51,.25) ;max-width:100%;overflow:hidden}
+    header{background:#2F3D24 !important;padding:0 2rem;position:sticky;top:0;z-index:100;box-shadow:0 2px 20px rgba(47,61,36,.30);border-bottom:1px solid rgba(184,115,51,.25) !important;max-width:100%;overflow:hidden}
     .header-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:92px;gap:1rem;width:100%}
     .logo-wrap{display:flex;align-items:center;gap:.85rem;text-decoration:none;flex-shrink:0}
     .logo-img{width:92px;height:92px;box-sizing:border-box;padding:6px;border-radius:50%;object-fit:contain;border:2px solid #B87333;background:#fff}
@@ -59,15 +59,15 @@
     .logo-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.25rem;font-weight:700;color:var(--cream);letter-spacing:.04em}
     .logo-sub{font-size:.65rem;color:#C8922A;letter-spacing:.12em;text-transform:uppercase;font-weight:600}
     .main-nav{display:flex;align-items:center;gap:.25rem}
-    .nav-link{color:var(--cream) ;text-decoration:none;font-size:.78rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;padding:.4rem .75rem;border-radius:30px;transition:var(--transition);border:1px solid transparent;white-space:nowrap}
-    .nav-link:hover,.nav-link.active{color:#C8922A ;background:rgba(200,146,42,.18);border-color:rgba(200,146,42,.45)}
+    .nav-link{color:var(--cream) !important;text-decoration:none;font-size:.78rem;font-weight:500;letter-spacing:.08em;text-transform:uppercase;padding:.4rem .75rem;border-radius:30px;transition:var(--transition);border:1px solid transparent;white-space:nowrap}
+    .nav-link:hover,.nav-link.active{color:#C8922A !important;background:rgba(200,146,42,.18);border-color:rgba(200,146,42,.45)}
     .hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.5rem}
     .hamburger span{display:block;width:24px;height:2px;background:var(--cream);border-radius:2px}
-    .mobile-nav{display:none;position:fixed;inset:0;background:#2F3D24 ;z-index:200;flex-direction:column;align-items:center;justify-content:center;gap:1.5rem}
+    .mobile-nav{display:none;position:fixed;inset:0;background:#2F3D24 !important;z-index:200;flex-direction:column;align-items:center;justify-content:center;gap:1.5rem}
     .mobile-nav.open{display:flex}
-    .mobile-nav a{color:var(--cream) ;text-decoration:none;font-family:'Cormorant Garamond',Georgia,serif;font-size:1.8rem;font-weight:600;letter-spacing:.06em}
-    .mobile-nav a:hover{color:#C8922A }
-    .mobile-nav-close{position:absolute;top:1.5rem;right:1.5rem;background:none;border:none;color:#C8922A ;font-size:2rem;cursor:pointer}
+    .mobile-nav a{color:var(--cream) !important;text-decoration:none;font-family:'Cormorant Garamond',Georgia,serif;font-size:1.8rem;font-weight:600;letter-spacing:.06em}
+    .mobile-nav a:hover{color:#C8922A !important}
+    .mobile-nav-close{position:absolute;top:1.5rem;right:1.5rem;background:none;border:none;color:#C8922A !important;font-size:2rem;cursor:pointer}
 
     /* Article Hero */
     .article-hero{position:relative;background:#2F3D24;overflow:hidden;min-height:420px;display:flex;align-items:flex-end}
@@ -145,12 +145,12 @@
     .related-card-title{font-family:'Cormorant Garamond',Georgia,serif;font-size:1rem;font-weight:700;color:var(--cream);line-height:1.3}
     .related-card-link{font-size:.75rem;font-family:'Jost',sans-serif;color:#C8922A;font-weight:600;margin-top:auto;padding-top:.5rem;display:flex;align-items:center;gap:.3rem}
 
-    footer{background:#2F3D24 ;color:rgba(245,240,232,.75);text-align:center;padding:2.5rem 1.5rem;font-size:.8rem;border-top:1px solid rgba(200,146,42,.25);letter-spacing:.04em}
+    footer{background:#2F3D24 !important;color:rgba(245,240,232,.75);text-align:center;padding:2.5rem 1.5rem;font-size:.8rem;border-top:1px solid rgba(200,146,42,.25);letter-spacing:.04em}
     footer strong{font-family:'Cormorant Garamond',Georgia,serif;color:var(--cream);font-size:1.1rem;letter-spacing:.08em}
-    .footer-tagline{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;color:#C8922A ;margin-top:.4rem;font-size:.92rem;font-weight:600}
+    .footer-tagline{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;color:#C8922A !important;margin-top:.4rem;font-size:.92rem;font-weight:600}
     .footer-links{margin-top:.75rem;display:flex;justify-content:center;gap:1.25rem;flex-wrap:wrap}
     .footer-links a{color:#C8922A;text-decoration:none;font-size:.73rem;transition:color var(--transition);letter-spacing:.06em;text-transform:uppercase;font-weight:600}
-    .footer-links a:hover{color:var(--cream) }
+    .footer-links a:hover{color:var(--cream) !important}
     .footer-copy{margin-top:1.2rem;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;opacity:.6}
 
     @media(max-width:900px){.main-nav{display:none}.hamburger{display:flex}}
@@ -158,66 +158,66 @@
     @media(max-width:480px){.header-inner{height:68px}.logo-name{font-size:1rem}.logo-sub{font-size:.58rem}}
     @media(max-width:320px){.logo-sub{display:none}}
   </style>
-  <style>*{-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text}body{-webkit-user-select:text;user-select:text}*{pointer-events:auto}</style>
+  <style>*{-webkit-user-select:text!important;-moz-user-select:text!important;-ms-user-select:text!important;user-select:text!important}body{-webkit-user-select:text!important;user-select:text!important}*{pointer-events:auto!important}</style>
   <style>
     /* MOBILE CONVERSION BLOCK FIX */
-    #hero-cta-block{padding:1.5rem 1rem;width:100%;box-sizing:border-box}
-    #hero-cta-block > div{padding:1.5rem 1rem;width:100%;box-sizing:border-box}
+    #hero-cta-block{padding:1.5rem 1rem!important;width:100%!important;box-sizing:border-box!important}
+    #hero-cta-block > div{padding:1.5rem 1rem!important;width:100%!important;box-sizing:border-box!important}
     .btn-compra-uniforme{
-      display:flex;
-      width:100%;
-      max-width:420px;
-      margin:0 auto;
-      justify-content:center;
-      align-items:center;
-      text-align:center;
-      padding:1rem 1.5rem;
-      font-size:1rem;
-      border-radius:16px;
-      box-sizing:border-box;
-      white-space:normal;
-      line-height:1.4;
-      min-height:60px;
+      display:flex!important;
+      width:100%!important;
+      max-width:420px!important;
+      margin:0 auto!important;
+      justify-content:center!important;
+      align-items:center!important;
+      text-align:center!important;
+      padding:1rem 1.5rem!important;
+      font-size:1rem!important;
+      border-radius:16px!important;
+      box-sizing:border-box!important;
+      white-space:normal!important;
+      line-height:1.4!important;
+      min-height:60px!important;
     }
     .btn-asesor{
-      display:flex;
-      width:100%;
-      max-width:420px;
-      margin:.75rem auto 0;
-      justify-content:center;
-      align-items:center;
-      text-align:center;
-      padding:1rem 1.5rem;
-      font-size:1rem;
-      border-radius:16px;
-      box-sizing:border-box;
-      white-space:normal;
-      line-height:1.4;
-      min-height:60px;
+      display:flex!important;
+      width:100%!important;
+      max-width:420px!important;
+      margin:.75rem auto 0!important;
+      justify-content:center!important;
+      align-items:center!important;
+      text-align:center!important;
+      padding:1rem 1.5rem!important;
+      font-size:1rem!important;
+      border-radius:16px!important;
+      box-sizing:border-box!important;
+      white-space:normal!important;
+      line-height:1.4!important;
+      min-height:60px!important;
     }
     #hero-cta-block ul li{
-      font-size:.95rem;
-      line-height:1.6;
-      padding:.65rem 1rem;
+      font-size:.95rem!important;
+      line-height:1.6!important;
+      padding:.65rem 1rem!important;
     }
     #hero-cta-block .como-comprar-block{
-      max-width:100%;
-      margin-left:0;
-      margin-right:0;
-      padding:1rem;
+      max-width:100%!important;
+      margin-left:0!important;
+      margin-right:0!important;
+      padding:1rem!important;
     }
     #hero-cta-block .como-comprar-block ol{
-      margin-left:.75rem;
+      margin-left:.75rem!important;
     }
     #hero-cta-block .como-comprar-block ol li{
-      font-size:.85rem;
-      line-height:1.65;
-      margin-bottom:.5rem;
+      font-size:.85rem!important;
+      line-height:1.65!important;
+      margin-bottom:.5rem!important;
     }
     @media(max-width:480px){
-      #hero-cta-block{padding:1rem .75rem}
-      .btn-compra-uniforme,.btn-asesor{font-size:.95rem;padding:.9rem 1rem}
-      #hero-cta-block ul li{font-size:.88rem;padding:.55rem .75rem}
+      #hero-cta-block{padding:1rem .75rem!important}
+      .btn-compra-uniforme,.btn-asesor{font-size:.95rem!important;padding:.9rem 1rem!important}
+      #hero-cta-block ul li{font-size:.88rem!important;padding:.55rem .75rem!important}
     }
   </style>
 </head>
